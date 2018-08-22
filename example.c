@@ -49,7 +49,7 @@ bool digitalWrite(int pin, int val) {
 
     // Open pin value file
     sprintf(fName, "/sys/class/gpio/gpio%d/value", pin);
-    fd = fopen(fName, "w";
+    fd = fopen(fName, "w");
     if(fd == NULL) {
         printf("Error: can't open pin value\n");
         return false;

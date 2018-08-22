@@ -1,1 +1,1 @@
-gcc -c LED Control.c
+gcc -c example.c
